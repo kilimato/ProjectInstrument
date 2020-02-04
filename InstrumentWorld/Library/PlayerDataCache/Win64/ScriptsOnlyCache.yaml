@@ -9,10 +9,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -57,11 +55,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12064}
+      Script: {instanceID: 11238}
     - Class: 114
-      Script: {instanceID: 15552}
+      Script: {instanceID: 11262}
     - Class: 114
-      Script: {instanceID: 18066}
+      Script: {instanceID: 12068}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -103,6 +101,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 8316f86bfa9d64d70cd476bbef827c81
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WaterPlaneGen
+  - hash:
+      serializedVersion: 2
+      Hash: d3b5663489416300cca55a130de9e3ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MakeWaterNoise
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -505,18 +515,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 8316f86bfa9d64d70cd476bbef827c81
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: WaterPlaneGen
-  - hash:
-      serializedVersion: 2
-      Hash: d3b5663489416300cca55a130de9e3ac
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MakeWaterNoise
   platform: 19
   scenePathNames:
   - Assets/area001.unity

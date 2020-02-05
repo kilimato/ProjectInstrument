@@ -80,13 +80,11 @@ public class player_control : MonoBehaviour
             {
                 anim.SetInteger("condition", 4);
                 moveDir += new Vector3(0, 1, 0) * jump_speed;
-                moveDir = transform.TransformDirection(moveDir);
             }
             if (Input.GetKeyUp(KeyCode.Space))
             {
                 anim.SetInteger("condition", 0);
                 moveDir = new Vector3(0, 0, 0);
-                moveDir = transform.TransformDirection(moveDir);
             }
         }
 
@@ -98,9 +96,11 @@ public class player_control : MonoBehaviour
             moveDir = transform.TransformDirection(moveDir);
         }
 
+        //kääntyminen
         rot += Input.GetAxis("Horizontal") * rot_speed * Time.deltaTime;
         transform.eulerAngles = new Vector3(0, rot, 0);
 
+        //painovoima
         moveDir.y -= gravity * Time.deltaTime;
         cont.Move(moveDir * Time.deltaTime);
     }

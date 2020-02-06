@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FMOD/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637166122292438821
+  lastModified: 637166134247061539
   LoadResult: 0
   FileSizes:
   - Name: 
@@ -164,15 +164,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -9031861198795762049}
-  - {fileID: 8999380941131592329}
+  - {fileID: 2536102155293800754}
   EditorEvents:
   - {fileID: 8268210008491980533}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 8999380941131592329}
+  - {fileID: 2536102155293800754}
   StringsBanks:
   - {fileID: -9031861198795762049}
-  stringsBankWriteTime: 637166122292438821
+  stringsBankWriteTime: 637166134247061539
   cacheVersion: 3
 --- !u!114 &204342056399674746
 MonoBehaviour:
@@ -232,6 +232,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 380
+--- !u!114 &2536102155293800754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637166134247061539
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &5106047717023373826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -321,7 +339,7 @@ MonoBehaviour:
   Path: event:/Footsteps
   guid: 772f1b21a3da454baba231f5b0becf14
   Banks:
-  - {fileID: 8999380941131592329}
+  - {fileID: 2536102155293800754}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -364,4 +382,4 @@ MonoBehaviour:
   lastModified: 637166122292285069
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0

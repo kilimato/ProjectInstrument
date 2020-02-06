@@ -397,6 +397,32 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1893570568}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &80196288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 80196282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: -1
+--- !u!114 &80196289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 80196282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9681ffcf2784fce459221c5cc09254b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepSpeed: 0.5
 --- !u!1001 &97489425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4804,6 +4830,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ec472d9268fe7224285458762be0fe2f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8434901555410975716, guid: ec472d9268fe7224285458762be0fe2f,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -5075,7 +5106,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2110759072}
   - component: {fileID: 2110759071}
-  - component: {fileID: 2110759070}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -5083,14 +5113,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &2110759070
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2110759069}
-  m_Enabled: 1
 --- !u!20 &2110759071
 Camera:
   m_ObjectHideFlags: 0
